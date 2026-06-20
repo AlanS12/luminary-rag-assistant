@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What were the main data problems at BrightMart?",
+        "ground_truth": "BrightMart had six siloed data systems with no integration layer, manual reporting taking 6 hours per week, no historical data archive beyond 18 months, poor data quality with 23% invalid email addresses, and no demand forecasting capability."
+    },
+    {
+        "question": "What technology stack did Luminary use for the BrightMart data platform?",
+        "ground_truth": "Luminary used Microsoft Azure as the cloud platform, Databricks with Unity Catalog for the data platform, Databricks Lakeflow for orchestration, Azure Data Lake Storage Gen2 for storage, and Power BI for reporting."
+    },
+    {
+        "question": "What is a medallion architecture?",
+        "ground_truth": "A medallion architecture is a data design pattern with three layers: Bronze for raw unmodified ingested data, Silver for cleaned and conformed data, and Gold for business-ready aggregated tables optimised for reporting."
+    },
+    {
+        "question": "How much did unplanned downtime cost PrecisionWorks annually?",
+        "ground_truth": "Unplanned machine downtime cost PrecisionWorks Engineering an estimated 1.8 million pounds per year in lost production and emergency repair costs."
+    },
+    {
+        "question": "What was PrecisionWorks first pass quality yield before the Luminary engagement?",
+        "ground_truth": "PrecisionWorks had a first-pass yield of 71% on aerospace component families, meaning 29% required rework or were scrapped."
+    },
+    {
+        "question": "What deflection rate did the Hartwell RAG assistant achieve?",
+        "ground_truth": "The Hartwell B2B Customer AI assistant achieved a 58% query deflection rate within 6 weeks of go-live, exceeding the target of 50%."
+    },
+    {
+        "question": "What is RAGAS and what does it measure?",
+        "ground_truth": "RAGAS is an evaluation framework for RAG applications that measures faithfulness, answer relevance, context precision, and context recall."
+    },
+    {
+        "question": "What LLM did Luminary use for the Hartwell RAG assistant?",
+        "ground_truth": "Luminary used Anthropic Claude Sonnet via the Claude API as the large language model for the Hartwell B2B Customer AI Assistant."
+    },
+    {
+        "question": "What was the main lesson learned from the Shopify integration on the BrightMart project?",
+        "ground_truth": "The main lesson was that Shopify webhook delivery is not guaranteed and can drop events under high load. Luminary had to build a deduplication layer and webhook replay mechanism, taking 6 days instead of the planned 2 days."
+    },
+    {
+        "question": "How many CNC machines did PrecisionWorks have across their two sites?",
+        "ground_truth": "PrecisionWorks had 34 CNC machines across their two sites in Coventry and Wolverhampton."
+    },
+    {
+        "question": "What chunking improvement improved RAGAS scores on the Hartwell project?",
+        "ground_truth": "Switching from fixed-size chunking to semantic chunking on product specification PDFs improved context precision by 0.09 points because it kept product data tables intact rather than splitting them mid-row."
+    },
+    {
+        "question": "What was BrightMarts annual turnover?",
+        "ground_truth": "BrightMart UK had an annual turnover of approximately 340 million pounds."
+    },
+    {
+        "question": "What industries does Luminary Data and AI serve?",
+        "ground_truth": "Luminary Data and AI serves clients from various industries including retail, manufacturing, and FMCG (Fast Moving Consumer Goods)."
+    },
+    {
+        "question": "What was the customer satisfaction score for the Hartwell AI assistant?",
+        "ground_truth": "The customer satisfaction score for AI-answered queries was 4.2 out of 5.0, which was higher than the 3.7 out of 5.0 score for email-answered queries before the assistant launched."
+    },
+    {
+        "question": "What percentage of Hartwell customer service queries were deflectable?",
+        "ground_truth": "Approximately 60% of Hartwell's 340 monthly inbound customer service queries were routine and deflectable, covering order status, stock availability, and product specification questions."
+    },
+    {
+        "question": "What orchestration tool did Luminary standardise on for Databricks projects?",
+        "ground_truth": "Luminary standardised on Databricks Lakeflow as the default orchestration tool for Databricks-native projects, replacing Apache Airflow."
+    },
+    {
+        "question": "How did Luminary improve demand forecast accuracy for Hartwell?",
+        "ground_truth": "Luminary proposed replacing Excel-based forecasting with an ML demand forecasting model using gradient boosting or Prophet running on Databricks, targeting improvement from 34% MAPE to below 18% MAPE."
+    },
+    {
+        "question": "What protocol did Luminary use to connect PrecisionWorks CNC machines?",
+        "ground_truth": "Luminary used the OPC-UA industrial protocol to connect the 34 CNC machines to a real-time data ingestion pipeline."
+    },
+    {
+        "question": "What was the BrightMart project final client satisfaction score?",
+        "ground_truth": "The BrightMart project received a client satisfaction score of 8.4 out of 10 at engagement close."
+    },
+    {
+        "question": "What vector store did Luminary use for the Hartwell RAG assistant?",
+        "ground_truth": "Luminary used Databricks Vector Search governed by Unity Catalog as the vector store for the Hartwell B2B Customer AI Assistant."
+    }
+]
